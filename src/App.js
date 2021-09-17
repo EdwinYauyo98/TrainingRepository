@@ -7,6 +7,9 @@ function App() {
       <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
       <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
       <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
+      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
+      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
+      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
     </div>
   );
 }
