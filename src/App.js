@@ -4,18 +4,6 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
     </div>
   );
 }
