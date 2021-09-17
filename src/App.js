@@ -4,7 +4,7 @@ import logo from './logo.svg';
 function App() {
   return (
     <div className="App">
-      <div>Hola mundo, buenos dias</div>
+      <div>Hola mundo, buenos dias con todos</div>
     </div>
   );
 }
