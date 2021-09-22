@@ -1,0 +1,44 @@
+.Container-Parent{
+    width: 100%;
+    h1{
+        text-align: center;   
+    }
+    .Container-Box{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        #Box-Left{
+            margin-right: -15%;
+        }
+        .Box-Junior{
+            border-radius: 20px;
+            text-align: center;
+            background: #DADAD9;
+            padding: 3%;
+            width: 20%;
+            .Image{
+                width: 100%;
+            }
+        }
+        #Box-Right{
+            margin-left: -15%;
+        }
+    }
+    #Enlace{
+        border-radius: 20px;
+        padding: 0.5%;
+        width: 15%;
+        background: #DADAD9;
+        text-align: center;
+        margin: 2% auto;
+        a{
+            color: #E4C000;
+        }
+        img{
+            padding: 0.5%;
+            margin: -3.0% auto;
+            margin-left: 2%;
+            width: 10%;
+        }
+    }
+}
