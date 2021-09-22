@@ -1,5 +1,5 @@
 import react from "react";
-import analista from '../images/Images-FinalSection/analista.jng'
+import analista from '../images/Images-FinalSection/analista.jpg'
 import '../FinalSection/FinalSection.scss';
 
 export function FinalSection(){
@@ -8,20 +8,20 @@ export function FinalSection(){
             <h1>TITTLE</h1>
 
             <div className="Container-Box">
-                <div className="Box-Junior" id="Box-Left">
-                    <img src={analista} alt="analista"></img>
+                <div className="Box-Junior">
+                    <img className="Image" src={analista} alt="analista"></img>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. 
                     </p>
                 </div>
                 <div className="Box-Junior">
-                    <img src={analista} alt="analista"></img>
+                    <img className="Image" src={analista} alt="analista"></img>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. 
                     </p>
                 </div>
                 <div className="Box-Junior">
-                    <img src={analista} alt="analista" id="Box-Right"></img>
+                    <img className="Image" src={analista} alt="analista"></img>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque, sodales vel elementum lacus torquent posuere habitasse cum, quisque purus placerat dui consequat augue nulla. Blandit erat venenatis sed mus nam ridiculus vestibulum integer natoque hendrerit condimentum non, gravida a hac vivamus cursus nisl eleifend inceptos mattis convallis tellus. 
                     </p>
