@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 // import './App.css';
-import { FinalSection } from './components/FinalSection/FinalSection';
+import Level from './components/WeLevels/Level';
+import Final from './components/FinalSection/FinalSection'
+import HomeData from './pages/home/HomeData.json'
 function App() {
   return (
     <div className="App">
-      <FinalSection/>
+      <Final/>
+      <Level data={HomeData.levels}/>
     </div>
   );
 }

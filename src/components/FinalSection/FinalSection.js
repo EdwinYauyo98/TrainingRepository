@@ -1,8 +1,8 @@
 import react from "react";
-import analista from '../images/Images-FinalSection/analista.jpg'
+import analista from '../../assets/Images-FinalSection/analista.jpg';
 import '../FinalSection/FinalSection.scss';
 
-export function FinalSection(){
+export default function Final(){
     return(
         <div className="Container-Parent">
             <h1>TITTLE</h1>
