@@ -1,21 +1,11 @@
+import Level from './components/WeLevel/Level';
 import logo from './logo.svg';
 // import './App.css';
-
+import HomeData from './components/WeLevel/HomeData.json';
 function App() {
   return (
     <div className="App">
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
-      <div>Hola mundo, buenos dias con todos, me llamo edwin y trabajo como desarrollador</div>
+      <Level data={HomeData.levels}/>
     </div>
   );
 }
